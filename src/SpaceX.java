@@ -1,17 +1,21 @@
 public class SpaceX {
-    private String Rocket;
-    private double Fuel;
-    private double Size;
-    private double Mass;
-    private double Speed;
+    private String rocket;
+    private int numberOfPilots;
+    private int numberOfSections;
+    private double fuel;
+    private double size;
+    private double weight;
+    private double speed;
 
 
-    public SpaceX(String Rocket, double Fuel, double Size, double Mass, double Speed) {
-        this.Rocket = Rocket;
-        this.Fuel = Fuel;
-        this.Size = Size;
-        this.Mass = Mass;
-        this.Speed = Speed;
+    public SpaceX(String rocket, int numberOfPilots, int numberOfSections, double fuel, double size, double weight, double speed) {
+        this.rocket = rocket;
+        this.numberOfPilots = numberOfPilots;
+        this.numberOfSections = numberOfSections;
+        this.fuel = fuel;
+        this.size = size;
+        this.weight = weight;
+        this.speed = speed;
 
     }
 }
